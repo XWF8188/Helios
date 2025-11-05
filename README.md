@@ -80,7 +80,7 @@ version: '3.8'
 
 services:
   helios:
-    image: ghcr.io/XWF8188/helios:latest
+    image: ghcr.io/xwf8188/helios:latest
     ports:
       - "8080:8080"
     environment:
@@ -115,7 +115,7 @@ docker run -d \
   -e SUBSCRIPTION_URL="https://your_subscription_url.com" \
   -v ./data:/data \
   --restart unless-stopped \
-  ghcr.io/XWF8188/helios:latest
+  ghcr.io/xwf8188/helios:latest
 ```
 
 ## ⚠️ 免责声明
