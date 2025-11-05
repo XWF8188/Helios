@@ -4,7 +4,7 @@
   <img src="logo.png" alt="Helios Logo" width="120">
 </div>
 
-> 🎬 **Helios** 是 [Selene](https://github.com/MoonTechLab/Selene) 所需 API 的 golang 实现。设计目标是单容器、单用户、最小化。
+> 🎬 **Helios** 是 [Selene](https://github.com/XWF8188/Selene) 所需 API 的 golang 实现。设计目标是单容器、单用户、最小化。
 
 <div align="center">
 
@@ -51,7 +51,7 @@ export SUBSCRIPTION_URL="https://your_subscription_url.com"  # 订阅配置URL
 
 1. 克隆项目
 ```bash
-git clone https://github.com/MoonTechLab/Helios.git
+git clone https://github.com/XWF8188/Helios.git
 cd Helios
 ```
 
@@ -80,7 +80,7 @@ version: '3.8'
 
 services:
   helios:
-    image: ghcr.io/moontechlab/helios:latest
+    image: ghcr.io/XWF8188/helios:latest
     ports:
       - "8080:8080"
     environment:
@@ -115,7 +115,7 @@ docker run -d \
   -e SUBSCRIPTION_URL="https://your_subscription_url.com" \
   -v ./data:/data \
   --restart unless-stopped \
-  ghcr.io/moontechlab/helios:latest
+  ghcr.io/XWF8188/helios:latest
 ```
 
 ## ⚠️ 免责声明
