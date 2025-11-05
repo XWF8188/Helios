@@ -45,7 +45,7 @@ export PASSWORD="your_password"           # 密码
 export SUBSCRIPTION_URL="https://your_subscription_url.com"  # 订阅配置URL
 ```
 
-- 将完整的 [配置文件](https://github.com/MoonTechLab/LunaTV?tab=readme-ov-file#%E8%AE%A2%E9%98%85)进行 base58 编码后提供 https 服务即为订阅 URL，可在 LunaTV 后台/Helios 中使用。
+- 将完整的 [配置文件](https://github.com/MoonTechLab/LunaTV?tab=readme-ov-file#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)进行 base58 编码后提供 https 服务即为订阅 URL，可在 LunaTV 后台/Helios 中使用。
 
 ### 本地运行
 
