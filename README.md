@@ -45,7 +45,7 @@ export PASSWORD="your_password"           # 密码
 export SUBSCRIPTION_URL="https://your_subscription_url.com"  # 订阅配置URL
 ```
 
-订阅 URL 请参考[这里](https://github.com/XWF8188/LunaTV?tab=readme-ov-file#%E8%AE%A2%E9%98%85)
+订阅 URL 请参考[这里](https://github.com/XWF8188/LunaTV?tab=readme-ov-file#⚙️ 配置文件)
 
 ### 本地运行
 
